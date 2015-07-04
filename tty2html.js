@@ -1,7 +1,7 @@
 var streamTransform = require('stream').Transform;
 
-function fnToggle(itm) {
-	this._is[itm] = !this._is[itm];
+function fnSet(itm) {
+	this._is[itm] = true;
 }
 
 function fnReset(itm) {
@@ -41,8 +41,10 @@ function tty2html(mode) {
 	this.suffix = '';
 	this.filter = false;
 	
-	this.dftForeground = this.foreground = 'dft-fg';
-	this.dftBackground = this.background = 'dft-bg';
+	this.dftForeground = { name: 'dft-fg', base: true, id: 39 };
+	this.foreground =    { name: 'dft-fg', base: true, id: 39 };
+	this.dftBackground = { name: 'dft-bg', base: true, id: 49 };
+	this.background =    { name: 'dft-bg', base: true, id: 49 };
 	
 	this.loadCodes(mode);
 	
@@ -85,7 +87,7 @@ tty2html.prototype.loadCodes = function(mode) {
 		49:  fnBgCol.bind(this, this.dftBackground),
 	};
 	
-	initSmall(this.baseCodes, fnToggle, 1,   0);
+	initSmall(this.baseCodes, fnSet, 1,   0);
 	initSmall(this.baseCodes, fnReset,  21,  0);
 	initSmall(this.baseCodes, fnFgCol,  30,  1);
 	initSmall(this.baseCodes, fnBgCol,  40,  1);
