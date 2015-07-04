@@ -1,0 +1,51 @@
+.tty2html-bold                    { font-weight: bold; }
+.tty2html-dim                     { opacity: 0.5; }
+.tty2html-italic                  { font-style: italic; }
+.tty2html-underline               { text-decoration: underline; }
+.tty2html-strike                  { text-decoration: line-through; }
+.tty2html-blink                   { text-decoration: blink; }
+.tty2html-underline-strike        { text-decoration: underline line-through; }
+.tty2html-underline-blink         { text-decoration: underline blink; }
+.tty2html-strike-blink            { text-decoration: line-through blink; }
+.tty2html-underline-strike-blink  { text-decoration: underline line-through blink; }
+.tty2html-hidden                  { visibility: hidden; }
+
+.tty2html-fg-color-dft-fg         { color: #ffffff; }
+.tty2html-bg-color-dft-bg         { background-color: #000000; }
+
+.tty2html-fg-color-dft-bg         { color: #000000; }
+.tty2html-bg-color-dft-fg         { background-color: #ffffff; }
+
+.tty2html-fg-color-black          { color: #000000; }
+.tty2html-fg-color-red            { color: #aa0000; }
+.tty2html-fg-color-green          { color: #00aa00; }
+.tty2html-fg-color-yellow         { color: #aa5500; }
+.tty2html-fg-color-blue           { color: #0000aa; }
+.tty2html-fg-color-magenta        { color: #aa00aa; }
+.tty2html-fg-color-cyan           { color: #00aaaa; }
+.tty2html-fg-color-l-gray         { color: #aaaaaa; }
+.tty2html-fg-color-d-gray         { color: #555555; }
+.tty2html-fg-color-l-red          { color: #ff5555; }
+.tty2html-fg-color-l-green        { color: #55ff55; }
+.tty2html-fg-color-l-yellow       { color: #ffff55; }
+.tty2html-fg-color-l-blue         { color: #5555ff; }
+.tty2html-fg-color-l-magenta      { color: #ff55ff; }
+.tty2html-fg-color-l-cyan         { color: #55ffff; }
+.tty2html-fg-color-white          { color: #ffffff; }
+
+.tty2html-bg-color-black          { background-color: #000000; }
+.tty2html-bg-color-red            { background-color: #aa0000; }
+.tty2html-bg-color-green          { background-color: #00aa00; }
+.tty2html-bg-color-yellow         { background-color: #aa5500; }
+.tty2html-bg-color-blue           { background-color: #0000aa; }
+.tty2html-bg-color-magenta        { background-color: magenta; }
+.tty2html-bg-color-cyan           { background-color: #00aaaa; }
+.tty2html-bg-color-l-gray         { background-color: #aaaaaa; }
+.tty2html-bg-color-d-gray         { background-color: #555555; }
+.tty2html-bg-color-l-red          { background-color: #ff5555; }
+.tty2html-bg-color-l-green        { background-color: #55ff55; }
+.tty2html-bg-color-l-yellow       { background-color: #ffff55; }
+.tty2html-bg-color-l-blue         { background-color: #5555ff; }
+.tty2html-bg-color-l-magenta      { background-color: #ff55ff; }
+.tty2html-bg-color-l-cyan         { background-color: #55ffff; }
+.tty2html-bg-color-white          { background-color: #ffffff; }
