@@ -49,3 +49,21 @@
 .tty2html-bg-color-l-magenta      { background-color: #ff55ff; }
 .tty2html-bg-color-l-cyan         { background-color: #55ffff; }
 .tty2html-bg-color-white          { background-color: #ffffff; }
+
+/* Use a special color if bold (take the lighter version) */
+.tty2html-bold.tty2html-fg-color-black       { color: #555555; }
+.tty2html-bold.tty2html-fg-color-red         { color: #ff5555; }
+.tty2html-bold.tty2html-fg-color-green       { color: #55ff55; }
+.tty2html-bold.tty2html-fg-color-yellow      { color: #ffff55; }
+.tty2html-bold.tty2html-fg-color-blue        { color: #5555ff; }
+.tty2html-bold.tty2html-fg-color-magenta     { color: #ff55ff; }
+.tty2html-bold.tty2html-fg-color-cyan        { color: #55ffff; }
+.tty2html-bold.tty2html-fg-color-l-gray      { color: #ffffff; }
+.tty2html-bold.tty2html-bg-color-black       { background-color: #555555; }
+.tty2html-bold.tty2html-bg-color-red         { background-color: #ff5555; }
+.tty2html-bold.tty2html-bg-color-green       { background-color: #55ff55; }
+.tty2html-bold.tty2html-bg-color-yellow      { background-color: #ffff55; }
+.tty2html-bold.tty2html-bg-color-blue        { background-color: #5555ff; }
+.tty2html-bold.tty2html-bg-color-magenta     { background-color: #ff55ff; }
+.tty2html-bold.tty2html-bg-color-cyan        { background-color: #55ffff; }
+.tty2html-bold.tty2html-bg-color-l-gray      { background-color: #ffffff; }
