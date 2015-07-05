@@ -41,10 +41,10 @@ function tty2html(mode) {
 	this.suffix = '';
 	this.filter = false;
 	
-	this.dftForeground = { name: 'dft-fg', base: true, id: 39 };
-	this.foreground =    { name: 'dft-fg', base: true, id: 39 };
-	this.dftBackground = { name: 'dft-bg', base: true, id: 49 };
-	this.background =    { name: 'dft-bg', base: true, id: 49 };
+	this.dftForeground = 'dft-fg';
+	this.foreground =    'dft-fg';
+	this.dftBackground = 'dft-bg';
+	this.background =    'dft-bg';
 	
 	this.loadCodes(mode);
 	
